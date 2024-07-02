@@ -1,44 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-12T18:54:12 EET" name="Default suite" finished-at="2024-06-12T18:54:19 EET" duration-ms="6845">
+  <suite started-at="2024-07-02T18:49:00 EET" name="Default suite" finished-at="2024-07-02T18:49:30 EET" duration-ms="30384">
     <groups>
     </groups>
-    <test started-at="2024-06-12T18:54:12 EET" name="Default test" finished-at="2024-06-12T18:54:19 EET" duration-ms="6845">
+    <test started-at="2024-07-02T18:49:00 EET" name="Default test" finished-at="2024-07-02T18:49:30 EET" duration-ms="30384">
       <class name="TestCases">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases@6ee660fb]" started-at="2024-06-12T18:54:12 EET" name="Setup" finished-at="2024-06-12T18:54:18 EET" duration-ms="6285" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:TestCases@66746f57]" started-at="2024-07-02T18:49:00 EET" name="Setup" finished-at="2024-07-02T18:49:06 EET" duration-ms="5934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerifyDefulatCurrency()[pri:0, instance:TestCases@6ee660fb]" started-at="2024-06-12T18:54:18 EET" name="VerifyDefulatCurrency" finished-at="2024-06-12T18:54:18 EET" duration-ms="112" status="PASS">
+        <test-method signature="verifyThatTheLanguageChanged()[pri:1, instance:TestCases@66746f57]" started-at="2024-07-02T18:49:06 EET" name="verifyThatTheLanguageChanged" finished-at="2024-07-02T18:49:08 EET" duration-ms="2636" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyDefulatCurrency -->
-        <test-method signature="verifyContactNumber()[pri:0, instance:TestCases@6ee660fb]" started-at="2024-06-12T18:54:18 EET" name="verifyContactNumber" finished-at="2024-06-12T18:54:18 EET" duration-ms="77" status="PASS">
+        </test-method> <!-- verifyThatTheLanguageChanged -->
+        <test-method signature="switchtoHotelTabAndSetLocation()[pri:2, instance:TestCases@66746f57]" started-at="2024-07-02T18:49:08 EET" name="switchtoHotelTabAndSetLocation" finished-at="2024-07-02T18:49:09 EET" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactNumber -->
-        <test-method signature="verifyDefualtFlightReturn()[pri:0, instance:TestCases@6ee660fb]" started-at="2024-06-12T18:54:18 EET" name="verifyDefualtFlightReturn" finished-at="2024-06-12T18:54:18 EET" duration-ms="54" status="PASS">
+        </test-method> <!-- switchtoHotelTabAndSetLocation -->
+        <test-method signature="selectNumOfVistorandRoom()[pri:3, instance:TestCases@66746f57]" started-at="2024-07-02T18:49:09 EET" name="selectNumOfVistorandRoom" finished-at="2024-07-02T18:49:14 EET" duration-ms="5332" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDefualtFlightReturn -->
-        <test-method signature="verifyDefualtLanguage()[pri:0, instance:TestCases@6ee660fb]" started-at="2024-06-12T18:54:18 EET" name="verifyDefualtLanguage" finished-at="2024-06-12T18:54:18 EET" duration-ms="75" status="PASS">
+        </test-method> <!-- selectNumOfVistorandRoom -->
+        <test-method signature="waitLoadingFullyComplete()[pri:4, instance:TestCases@66746f57]" started-at="2024-07-02T18:49:14 EET" name="waitLoadingFullyComplete" finished-at="2024-07-02T18:49:30 EET" duration-ms="16190" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDefualtLanguage -->
-        <test-method signature="verifyFlightDeparture()[pri:0, instance:TestCases@6ee660fb]" started-at="2024-06-12T18:54:18 EET" name="verifyFlightDeparture" finished-at="2024-06-12T18:54:19 EET" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFlightDeparture -->
-        <test-method signature="verifyHotelsTabNotSelectedByDefualt()[pri:0, instance:TestCases@6ee660fb]" started-at="2024-06-12T18:54:19 EET" name="verifyHotelsTabNotSelectedByDefualt" finished-at="2024-06-12T18:54:19 EET" duration-ms="47" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHotelsTabNotSelectedByDefualt -->
-        <test-method signature="verifyQetafLogo()[pri:0, instance:TestCases@6ee660fb]" started-at="2024-06-12T18:54:19 EET" name="verifyQetafLogo" finished-at="2024-06-12T18:54:19 EET" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyQetafLogo -->
+        </test-method> <!-- waitLoadingFullyComplete -->
       </class> <!-- TestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
